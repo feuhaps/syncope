@@ -131,7 +131,7 @@ under the License.
         <excludes>
           <exclude>*Context.xml</exclude>
         </excludes>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/core/src/main/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/core/src/main/resources</targetPath>
       </resource>
       <resource>
         <directory>../core/persistence-jpa/src/main/resources</directory>
@@ -139,18 +139,18 @@ under the License.
           <exclude>*Context.xml</exclude>
           <exclude>META-INF/spring-persistence.xml</exclude>
         </excludes>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/core/src/main/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/core/src/main/resources</targetPath>
       </resource>
       <resource>
         <directory>../core/persistence-jpa/src/test/resources</directory>
         <includes>
           <include>persistence.properties</include>
         </includes>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/core/src/test/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/core/src/test/resources</targetPath>
       </resource>
       <resource>
         <directory>../core/logic/src/main/resources</directory>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/core/src/main/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/core/src/main/resources</targetPath>
         <excludes>
           <exclude>*Context.xml</exclude>
         </excludes>
@@ -160,11 +160,11 @@ under the License.
         <includes>
           <include>security.properties</include>
         </includes>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/core/src/main/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/core/src/main/resources</targetPath>
       </resource>
       <resource>
         <directory>../fit/core-reference/src/main/resources</directory>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/core/src/main/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/core/src/main/resources</targetPath>
         <includes>
           <include>coreContext.xml</include>
           <include>log4j2.xml</include>
@@ -172,26 +172,26 @@ under the License.
       </resource>
       <resource>
         <directory>../fit/core-reference/src/main/resources/all</directory>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/core/src/main/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/core/src/main/resources</targetPath>
         <includes>
           <include>workflow.properties</include>
         </includes>
       </resource>
       <resource>
         <directory>../fit/core-reference/src/main/webapp</directory>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/core/src/test/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/core/src/test/resources</targetPath>
         <includes>
           <include>*.jsp</include>
         </includes>
       </resource>
       <resource>
         <directory>../fit/core-reference/src/main/webapp/WEB-INF</directory>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/core/src/main/webapp/WEB-INF</targetPath>
+        <targetPath>target/classes/archetype-resources/core/src/main/webapp/WEB-INF</targetPath>
       </resource>
             
       <resource>
         <directory>../client/console/src/main/resources</directory>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/console/src/main/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/console/src/main/resources</targetPath>
         <includes>
           <include>consoleContext.xml</include>
           <include>console.properties</include>
@@ -199,7 +199,7 @@ under the License.
       </resource>
       <resource>
         <directory>../fit/console-reference/src/main/resources</directory>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/console/src/main/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/console/src/main/resources</targetPath>
         <includes>
           <include>log4j2.xml</include>
           <include>save-model.html</include>
@@ -208,14 +208,14 @@ under the License.
       </resource>
       <resource>
         <directory>../fit/console-reference/src/main/resources</directory>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/console/src/test/resources</targetPath>
+        <targetPath>target/classes/archetype-resources/console/src/test/resources</targetPath>
         <includes>
           <include>console.properties</include>
         </includes>
       </resource>
       <resource>
         <directory>../fit/console-reference/src/main/webapp/WEB-INF</directory>
-        <targetPath>${project.build.outputDirectory}/archetype-resources/console/src/main/webapp/WEB-INF</targetPath>
+        <targetPath>target/classes/archetype-resources/console/src/main/webapp/WEB-INF</targetPath>
       </resource>
     </resources>
   </build>

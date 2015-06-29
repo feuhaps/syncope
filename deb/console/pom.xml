@@ -85,7 +85,7 @@ under the License.
       <resource>
         <directory>${project.basedir}/src/deb/tomcat8</directory>
         <filtering>true</filtering>
-        <targetPath>${project.build.directory}/tomcat8</targetPath>
+        <targetPath>target/tomcat8</targetPath>
       </resource>
       
       <resource>
@@ -94,7 +94,7 @@ under the License.
           <include>console.properties</include>
           <include>consoleContext.xml</include>
         </includes>
-        <targetPath>${project.build.directory}/etc</targetPath>
+        <targetPath>target/etc</targetPath>
         <filtering>true</filtering>
       </resource>
       <resource>
@@ -102,13 +102,13 @@ under the License.
         <includes>
           <include>log4j2.xml</include>
         </includes>
-        <targetPath>${project.build.directory}/classes</targetPath>
+        <targetPath>target/classes</targetPath>
         <filtering>true</filtering>
       </resource>
       
       <resource>
         <directory>${project.build.directory}/etc</directory>
-        <targetPath>${project.build.directory}/classes</targetPath>
+        <targetPath>target/classes</targetPath>
       </resource>
       
       <resource>
