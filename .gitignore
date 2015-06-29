@@ -1,9 +1,6 @@
 *.i??
 *.orig
 .idea
-.project
-.classpath
-.settings
 eclipse-classes
 target
 
