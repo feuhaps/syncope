@@ -311,6 +311,7 @@ ORYX.Editor.createByUrl = function(modelUrl){"/>
         <defaultGoal>clean verify cargo:run</defaultGoal>
 
         <plugins>
+<!--
           <plugin>
             <groupId>org.codehaus.cargo</groupId>
             <artifactId>cargo-maven2-plugin</artifactId>
@@ -334,6 +335,7 @@ ORYX.Editor.createByUrl = function(modelUrl){"/>
               </execution>
             </executions>
           </plugin>
+-->
         </plugins>
       </build>
     </profile>
