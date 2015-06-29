@@ -270,6 +270,7 @@ under the License.
           </deployables>
         </configuration>
         <executions>
+		<!--
           <execution>
             <id>start-container</id>
             <phase>pre-integration-test</phase>
@@ -284,6 +285,7 @@ under the License.
               <goal>stop</goal>
             </goals>
           </execution>
+		  -->
         </executions>
       </plugin>
       
@@ -685,6 +687,7 @@ under the License.
               </configuration>
             </configuration>
             <executions>
+			<!--
               <execution>
                 <id>start-container</id>
                 <phase>none</phase>
@@ -693,6 +696,7 @@ under the License.
                 <id>stop-container</id>
                 <phase>none</phase>
               </execution>
+			  -->
             </executions>
           </plugin>
         </plugins>
@@ -739,6 +743,7 @@ under the License.
                   <goal>install</goal>
                 </goals>
               </execution>
+			  <!--
               <execution>
                 <id>start-container</id>
                 <phase>none</phase>
@@ -747,6 +752,7 @@ under the License.
                 <id>stop-container</id>
                 <phase>none</phase>
               </execution>
+			  -->
             </executions>
           </plugin>
         </plugins>
