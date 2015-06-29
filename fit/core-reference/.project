@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>syncope-fit-core-reference</name>
+  <comment>Apache Syncope FIT Core Reference. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>syncope-core-rest-cxf</project>
+    <project>syncope-common-rest-api</project>
+    <project>syncope-common-lib</project>
+    <project>syncope-core-logic</project>
+    <project>syncope-core-provisioning-java</project>
+    <project>syncope-core-workflow-api</project>
+    <project>syncope-core-provisioning-api</project>
+    <project>syncope-core-persistence-api</project>
+    <project>syncope-core-misc</project>
+    <project>syncope-core-workflow-java</project>
+    <project>syncope-core-persistence-jpa</project>
+    <project>syncope-fit-build-tools</project>
+    <project>syncope-ext-camel-rest-cxf</project>
+    <project>syncope-ext-camel-rest-api</project>
+    <project>syncope-ext-camel-common-lib</project>
+    <project>syncope-ext-camel-logic</project>
+    <project>syncope-ext-camel-provisioning</project>
+    <project>syncope-ext-camel-provisioning-api</project>
+    <project>syncope-ext-camel-persistence-api</project>
+    <project>syncope-client-lib</project>
+    <project>syncope-core-workflow-activiti</project>
+    <project>syncope-ext-camel-persistence-jpa</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

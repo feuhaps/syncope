@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/directory/server/apacheds-all/2.0.0-M20/apacheds-all-2.0.0-M20.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/4.1.6.RELEASE/spring-tx-4.1.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/h2database/h2/1.4.187/h2-1.4.187.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/tirasa/connid/connector-framework-internal/1.4.1.0/connector-framework-internal-1.4.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/tirasa/connid/slf4j-logging/1.4.1.0/slf4j-logging-1.4.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/groovy-all/2.4.3/groovy-all-2.4.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/tirasa/connid/bundles/db/net.tirasa.connid.bundles.db.table/2.2.2/net.tirasa.connid.bundles.db.table-2.2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/tirasa/connid/bundles/db/net.tirasa.connid.bundles.db.common/2.2.2/net.tirasa.connid.bundles.db.common-2.2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/logging/log4j/log4j-core/2.2/log4j-core-2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/logging/log4j/log4j-api/2.2/log4j-api-2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/lmax/disruptor/3.3.2/disruptor-3.3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/logging/log4j/log4j-slf4j-impl/2.2/log4j-slf4j-impl-2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar"/>
+</classpath>

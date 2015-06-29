@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>syncope-core-logic</name>
+  <comment>Apache Syncope Core Logic. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>syncope-core-provisioning-java</project>
+    <project>syncope-core-workflow-api</project>
+    <project>syncope-core-provisioning-api</project>
+    <project>syncope-core-persistence-api</project>
+    <project>syncope-common-lib</project>
+    <project>syncope-core-misc</project>
+    <project>syncope-core-workflow-java</project>
+    <project>syncope-core-persistence-jpa</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

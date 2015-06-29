@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>syncope-ext-camel-persistence-jpa</name>
+  <comment>Apache Syncope Extensions: Camel Persistence JPA. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>syncope-core-persistence-jpa</project>
+    <project>syncope-core-workflow-api</project>
+    <project>syncope-core-provisioning-api</project>
+    <project>syncope-core-persistence-api</project>
+    <project>syncope-common-lib</project>
+    <project>syncope-core-misc</project>
+    <project>syncope-ext-camel-persistence-api</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>
