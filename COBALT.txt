@@ -1,0 +1,1 @@
+Apache Syncope (Applied to syncope-core-persistence-api) (# Program elements: 18.803)
