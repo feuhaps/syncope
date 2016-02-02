@@ -1,1 +1,11 @@
 Apache Syncope (Applied to syncope-core-persistence-api) (# Program elements: 18.803)
+
+Open only projects:
+syncope-core-persistence-jpa
+syncope-core-workflow-api
+syncope-core-provisioning-api
+syncope-core-persistence-api
+syncope-common-lib
+syncope-core-misc
+
+(other projects have compile errors and do not contain any JPA meta data)
